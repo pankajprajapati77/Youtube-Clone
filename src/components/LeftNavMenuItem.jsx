@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const LeftNavMenuItem = ({ text, icon, className, action }) => {
   return (
@@ -15,4 +15,4 @@ const LeftNavMenuItem = ({ text, icon, className, action }) => {
   );
 };
 
-export default LeftNavMenuItem
+export default LeftNavMenuItem;
