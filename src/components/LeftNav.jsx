@@ -12,7 +12,7 @@ const LeftNav = () => {
 
    const navigate = useNavigate();
 
-    const clickHandler = (name, type) => {
+    const clickHanlder = (name, type) => {
         switch (type) {
             case "category":
                 return setSelectedCategory(name);
@@ -38,7 +38,7 @@ const LeftNav = () => {
               text={item.type === "home" ? "Home" : item.name}
               icon={item.icon}
               action={()=> {
-                clickHandler(item.name, item.type);
+                clickHanlder(item.name, item.type);
                 navigate("/");
               }}
               className={`${
